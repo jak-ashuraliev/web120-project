@@ -1,5 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+
 /* Color Variables */
 :root{
     --main-bg-color: #75d5f5;
@@ -8,6 +9,7 @@
     --main-black: #222;
     --main-white: #eee;
 }
+
 *{
     padding: 0;
     margin: 0;

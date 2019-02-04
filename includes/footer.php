@@ -1,4 +1,3 @@
-    <!-- Go to Top button -->
     <a class="go-to-top" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
     <!--START Footer-->
     <footer class="clear-fix">

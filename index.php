@@ -68,11 +68,9 @@
     <!--END contact-section-->
     
     
-    
     <!--PHP Include SIMPLE CONTACT FORM -->
     <?php include 'includes/simple.php'; ?>
     <p class="clear-recaptcha"></p>
-    
     
     
     <!--PHP Include FOOTER File-->

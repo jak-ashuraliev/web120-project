@@ -3,10 +3,9 @@
 <!--PHP include HEADER file-->
 <?php include 'includes/header.php' ; ?>
 
+    <h1>BIG PROJECT</h1>
 
-<h2>BIG PROJECT PAGE</h2>
-    
-    
+
     
 <!--PHP Include FOOTER File-->
 <?php include 'includes/footer.php'; ?>

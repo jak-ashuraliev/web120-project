@@ -19,7 +19,7 @@
     scroll-behavior: smooth;
 }
 p{
-    color: #777;
+    color: #666;
 }
 h1{
     color: var(--main-black);
@@ -65,7 +65,7 @@ h1{
     height: 90vh;
 }
 .hero-wrapper strong{
-    color: #8490ff;
+    color: var(--main-heading-color);
 }
 .about-wrapper,
 .what-i-offer-wrapper,

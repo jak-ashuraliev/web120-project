@@ -5,35 +5,10 @@
         </small>
     </footer>
     <!--END Footer-->
-    
-    <!--jquery cdn-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    
-    <script>
-        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-
-            
-        
-        // On window scroll add nav-fixed class
-        $(window).on("scroll", function(){
-          if($(this).scrollTop() > 1) {
-            $('header').addClass('nav-fixed');
-          }
-          else {
-            $('header').removeClass('nav-fixed');
-          }
-        });
-        
-    </script>
-    
-    
-</body>
+     
+    <!--Lightbox II Gallery--> 
+    <script src="js/lightbox.js"></script> 
+     
+ </body>
 </html>
+    

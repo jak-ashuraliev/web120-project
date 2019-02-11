@@ -4,7 +4,7 @@
 /* Global rules */
 html, 
 body {
-    background-color: lightgray;
+    /*background-color: lightgray;*/
     font-family: 'Poppins', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -19,7 +19,7 @@ body {
 }
 
 div.wrapper {
-    /*max-width: 1280px;*/
+    max-width: 1280px;
     background-color: #fff;
     margin: 0 auto;
     overflow: auto;
@@ -42,7 +42,7 @@ h3, h4, p {
 
 section{
     float: left;
-    width: 65%;
+    width: 70%;
     margin-left: 2em;
 }
 .section-home{
@@ -97,7 +97,7 @@ figure a img{
 /*RIGHT Column Styles*/
 aside{
     float: right;
-    width: 25%;
+    width: 20%;
     border: 1px solid #e5e5e5;
     padding-left: 1em;
     padding-right: 1em;
@@ -114,13 +114,19 @@ hr{
     border: .5px solid #e5e5e5;
 }
 
+blockquote{
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+    font-size: .9em;
+}
+
 /*FOOTER */
 
 .go-to-top{
     position: fixed;
     z-index: 300;
     bottom: 30px;
-    right: 30px;
+    right: 0;
     width: 30px;
     height: 30px;
     background-color: #8490ff;

@@ -4,6 +4,7 @@
 <!--LEFT COLUMN-->
 <section>
    <h2>LIGHTBOX II GALLERY</h2>
+   <hr>
    <h3>Heading</h3>
    <p>Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers. Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</P>
    <div class="gallery">

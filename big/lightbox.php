@@ -9,58 +9,58 @@
    <p>Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers. Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.</P>
    <div class="gallery">
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/animals" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/animals" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="ihttps://placeimg.com/375/300/arch" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/arch" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/nature" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/nature" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/people" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/people" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/animals" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/animals" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/arch" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/arch" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/nature" data-lightbox="Title Textext" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/nature" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/people" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/people" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="images/mobile-banner.jpg" data-lightbox="Mobile" data-title="Mobile">
-               <img src="images/mobile-banner.jpg" alt="Mobile"></img>
+           <a href="https://placeimg.com/375/300/tech" data-lightbox="Title Text" data-title="Some Text">
+               <img src="https://placeimg.com/375/300/tech" alt="Some text"></img>
            </a>
-           <figcaption>Mobile Device</figcaption>
+           <figcaption>Title Text</figcaption>
        </figure>
    </div>
    

@@ -7,7 +7,7 @@
     <!--END Footer-->
      
     <!--Lightbox II Gallery--> 
-    <script src="js/lightbox.js"></script> 
+    <script src="js/lightbox.js" type="text/javascript"></script> 
      
  </body>
 </html>

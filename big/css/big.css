@@ -75,7 +75,7 @@ figure{
 }
 figure a img{
     display: inline-block;
-    width: 100%;
+    width: 120%;
 }
 /*figure{*/
 /*    display: inline-block;*/
@@ -207,6 +207,13 @@ div.embed-container.agenda_view{
     div.embed-container.month_view{
         display: none;
     }
+    
+    aside {
+        border: none;
+    }
+    aside img{
+        display: none;
+    }
 }
 
 
@@ -226,6 +233,13 @@ div.embed-container.agenda_view{
        display: block;
     }
     
+    section img {
+        width: 100%;
+    }
+    
+    aside {
+        border: none;
+    }
     aside img{
         display: none;
     }
@@ -239,6 +253,6 @@ div.embed-container.agenda_view{
     
     .gallery{
         text-align: center;
-}
+    }
         
 }

@@ -13,7 +13,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!--CSSMenuMaker-->
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    
@@ -30,8 +30,9 @@
                         <li><a href="lightbox.php">LIGHTBOX</a></li>
                         <li><a href="#"><i class="fa fa-fw fa-bars"></i> RESEARCH TOPICS</a>
                             <ul>
-                                <li><a href="galleries.php">GALLERIES</a></li>
                                 <li><a href="respons-vs-mobile.php">RESPONSIVE/MOBILE</a></li>
+                                <li><a href="galleries.php">GALLERIES</a></li>
+                                <li><a href="flexbox.php">Flexbox</a></li>
                                 <li><a href="shopping-carts.php">SHOPPING CARTS</a></li>
                             </ul>
                         </li>

@@ -15,7 +15,7 @@
            <figcaption>Title Text</figcaption>
        </figure>
        <figure>
-           <a href="ihttps://placeimg.com/375/300/arch" data-lightbox="Title Text" data-title="Some Text">
+           <a href="https://placeimg.com/375/300/arch" data-lightbox="Title Text" data-title="Some Text">
                <img src="https://placeimg.com/375/300/arch" alt="Some text"></img>
            </a>
            <figcaption>Title Text</figcaption>

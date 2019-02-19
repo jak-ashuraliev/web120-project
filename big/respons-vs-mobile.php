@@ -55,11 +55,11 @@
     <div class="story-heading">
         <h4>Mobile First vs Mobile Responsive Design</h4>
         <img src="images/responsive-device.png" alt="devices">
-        <p>Mobile browsing is here to stay. At Smartz, we believe that today's business needs to understand the needs of mobile users in order to design websites and marketing materials that are just as easy to view on a smartphone or other mobile device as they are on a desktop... <a href="https://www.smartz.com/web-design/mobile-first-vs-mobile-responsive-design/" target="_blank"> Read more</a></p>
+        <p>Mobile browsing is here to stay. At Smartz, we believe that today's business needs to understand the needs of mobile users in order to design websites and marketing materials that are just as easy to view on a smartphone or other mobile device as they are on a desktop... <br><a href="https://www.smartz.com/web-design/mobile-first-vs-mobile-responsive-design/" target="_blank">Read more</a></p>
         <hr>
         <h4>The Pros and Cons of Mobile Apps vs. Responsive Web Design</h4>
         <img src="images/mobile-banner.jpg" alt="devices">
-        <p>These days, developers face a dilemma when deciding on a format for their mobile and smartphone-based products: Create a native mobile app or stick with a responsive web-based platform?... <a href="https://www.smashstack.com/articles/the-pros-and-cons-of-mobile-apps-vs-responsive-web-design/" target="_blank"> Read more</a></p>
+        <p>These days, developers face a dilemma when deciding on a format for their mobile and smartphone-based products: Create a native mobile app or stick with a responsive web-based platform?...<br><a href="https://www.smashstack.com/articles/the-pros-and-cons-of-mobile-apps-vs-responsive-web-design/" target="_blank"> Read more</a></p>
     </div>
     
     <hr>

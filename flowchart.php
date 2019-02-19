@@ -5,12 +5,14 @@
 
 <div class="flowchart-wrapper">
     <h2>FLOWCHART</h2>
-    <h3>Currently In Development</h3>
-    <img src="images/chart.png" alt="chart">
+    <img src="images/site-architecture.png" alt="site architecture">
+    <br>
+    <h2>WIREFRAMES</h2>
+    <img src="images/all-in-one-wireframe.jpg" alt="wireframe and design">
 </div>
 
     
-    
+   
     
 
 <!--PHP Include FOOTER File-->

@@ -32,7 +32,7 @@
                             <ul>
                                 <li><a href="respons-vs-mobile.php">RESPONSIVE/MOBILE</a></li>
                                 <li><a href="galleries.php">GALLERIES</a></li>
-                                <li><a href="flexbox.php">Flexbox</a></li>
+                                <li><a href="flexbox.php">FLEXBOX</a></li>
                                 <li><a href="shopping-carts.php">SHOPPING CARTS</a></li>
                             </ul>
                         </li>

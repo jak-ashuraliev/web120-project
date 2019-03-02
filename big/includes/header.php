@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-    <title>Jak Ashuraliev's WEB120 BIG Project</title>
+    <title><?= $title ?></title>
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/big.css" />
+    <link rel="stylesheet" href="css/contact_form.css" />
     <!--Lightbox II Gallery-->
     <link rel="stylesheet" href="css/lightbox.css" />
     <!--jQuery -->  
@@ -22,7 +23,6 @@
  <body>
     <div class="wrapper">
         <header>
-            <!--<h1>Jak Ashuraliev's WEB120 BIG Project</h1>-->
                 <nav id="cssmenu">
                     <ul>
                         <li><a href="../index.php">PORTAL PAGE</a></li>
@@ -36,14 +36,14 @@
                                 <li><a href="shopping-carts.php">SHOPPING CARTS</a></li>
                             </ul>
                         </li>
-                        <li><a href="#"></i> GOOGLE TOOLS</a>
+                        <li><a href="#"><i class="fa fa-fw fa-bars"></i> GOOGLE TOOLS</a>
                             <ul>
-                                <li><a href="#">SEO</a></li>
-                                <li><a href="#">CALENDAR</a></li>
-                                <li><a href="#l"> MAP</a></li>
+                                <li><a href="calendar.php">CALENDAR</a></li>
+                                <li><a href="youtube.php">YOUTUBE</a></li>
+                                <li><a href="google-map.php">GOOGLE MAP</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.php"></i> CONTACT</a></li>
+                        <li><a href="contact.php"> CONTACT</a></li>
                     </ul>
                 </nav>
         </header>

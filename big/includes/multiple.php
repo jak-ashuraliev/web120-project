@@ -18,13 +18,13 @@
  */
 
 #EDIT THE FOLLOWING:
-$toAddress = "yourname@example.com";  //place your/your client's email address here
-$toName = "CLIENT NAME HERE"; //place your client's name here
-$website = "CLIENT WEBSITE NAME HERE";  //place NAME of your client's website here
+$toAddress = "jakhongir.ashuraliev@seattlecentral.edu";  //place your/your client's email address here
+$toName = "Jak Ashuraliev"; //place your client's name here
+$website = "www.ashuraliev.com";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
-include_once 'config.php'; #site keys go inside your config.php file
+include_once 'big-config.php'; #site keys go inside your config.php file
 include 'contact-lib/contact_include.php'; #complex unsightly code moved here
 $response = null;
 $reCaptcha = new ReCaptcha($secretKey);
@@ -41,11 +41,11 @@ if ($response != null && $response->success)
     ?>
     <!-- START HTML FEEDBACK -->
     <div class="contact-feedback">
-        <h2>Your Comments Have Been Received!</h2>
+        <h2>Your Message Has Been Received!</h2>
         <p>Thanks for the input!</p>
-        <p>We'll respond via email within 48 hours, if you requested information.</p>
+        <p>We'll respond via email within 48 hours, if your requested information requiers a response.</p>
     </div>    
-    <!-- END HTML FEEDBACK -->        
+    <!-- END HTML FEEDBACK -->    
     <?php
 }else{#show form, either for first time, or if data not valid per reCAPTCHA 
     if($response != null && !$response->success)
@@ -82,25 +82,21 @@ if ($response != null && $response->success)
 		</label>
 	</div>
 	
-	<div>	
-		<fieldset>
-			<legend>What Services Are You Interested In?</legend>
+	<div class="fieldset">	
+			<label>What Services Are You Interested In?</label><br>
 			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
 			<input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
 			<input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
 			<input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
 			<input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
-		</fieldset>
+			<br>
 	</div>
 	
-		<div>	
-		<fieldset>
-			<legend>Would you like to join our mailing list?</legend>
-			<input type="radio" name="Join_Mailing_List?" value="Yes" 
-			required="required" title="Mailing list is required" tabindex="50"  
-			/> Yes <br />
-			<input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
-		</fieldset>
+	<div>
+		<label>Would you like to join our mailing list?</label><br>
+		<input type="radio" name="Join_Mailing_List?" value="Yes" required="required" title="Mailing list is required" tabindex="50"/> Yes <br />
+		<input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
+		<br>
 	</div>
 	<div>	
 		<label>

@@ -7,7 +7,7 @@
 #cssmenu li,
 #cssmenu a {
   margin: 0;
-  padding: .2em .6em;
+  padding: .26em .6em;
   border: 0;
   list-style: none;
   font-weight: normal;
@@ -76,7 +76,7 @@
     float: none;
   }
   #cssmenu > ul > li.mobile {
-    margin-top: .4em;
+    margin-top: .2em;
     display: block;
   }
   #cssmenu > ul > li.mobile i {
@@ -104,7 +104,7 @@
   box-shadow: 0 0 0 transparent;
 }
 #cssmenu > ul > li > a {
-  margin: 0 0 2px 0;
+  margin: 0 0 0 0;
   /*font-size: 14px;*/
   display: block;
   color: #fff;
@@ -139,7 +139,7 @@
   padding: 5px 12px;
   display: none;
   position: absolute;
-  top: 37px;
+  top: 40px;
   left: 0;
   width: 200px;
   z-index: 1;

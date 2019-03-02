@@ -2,21 +2,17 @@
 // config.php
 
 // URL & labels for navigation:
-$nav1['../index.php'] = "Portal Page";
 $nav1['index.php'] = "Home";
-$nav1['lightbox.php'] = "Lightbox";
-$nav1['respons-vs-mobile.php'] = "Responsive vs Mobile";
-$nav1['galleries.php'] = "Galleries";
-$nav1['flexbox.php'] = "Flexbox";
-$nav1['shopping-carts.php'] = "Shopping Carts";
-$nav1['calendar.php'] = "Calendar";
-$nav1['youtube.php'] = "YouTube Video";
-$nav1['google-map.php'] = "Google Map";
-$nav1['contact.php'] = "Contact";
+$nav1['big/index.php'] = "Big Project";
+$nav1['aia.php'] = "AIA";
+$nav1['flowchart.php'] = "Flowchart";
+$nav1['fp/index.php'] = "Final Project";
+$nav1['contactme.php'] = "Contact";
 
 
+// echo ($_SERVER['PHP_SELF']);
 define ('THIS_PAGE', basename($_SERVER['PHP_SELF']));
-
+// die;
 
 // default title
 $title = THIS_PAGE;
@@ -24,43 +20,29 @@ $title = THIS_PAGE;
 switch(THIS_PAGE){
     
     case 'index.php':
-        $title = 'Home';
+        $title = 'Jak Ashuraliev | Front-End Web Developer';
     break;
     
-    case 'lightbox.php':
-        $title = 'Lightbox';
+    case 'big/index.php':
+        $title = 'Big Project Assignment';
     break;
     
-    case 'respons-vs-mobile.php':
-        $title = 'Responsive vs Mobile';
+    case 'aia.php':
+        $title = 'Audience, Issues and Approach';
+        $font_user = 'fa-users';
+        $font2 = 'fa-check-square-o';
     break;
     
-    case 'galleries.php':
-        $title = 'Galleries';
+    case 'flowchart.php':
+        $title = 'Flowchart';
     break;
     
-    case 'flexbox.php':
-        $title = 'Flexbox';
+    case 'fp/index.php':
+        $title = 'Final Project';
     break;
     
-    case 'shopping-carts.php':
-        $title = 'Shopping Carts';
-    break;
-    
-    case 'calendar.php':
-        $title = 'Calendar';
-    break;
-    
-    case 'youtube.php':
-        $title = 'youtube.php';
-    break;
-    
-    case 'google-map.php':
-        $title = 'Google Map';
-    break;
-    
-    case 'contact.php':
-        $title = 'Contact';
+    case 'contactme.php':
+        $title = 'Contact Page';
     break;
 }
 
@@ -70,7 +52,6 @@ date_default_timezone_set('America/Los_Angeles');
 
 // -- PHP include CREDENTIALS file --
 include ('includes/credentials.php');
-
 
 /*
 makeLinks function will create our dynamic nav when called.

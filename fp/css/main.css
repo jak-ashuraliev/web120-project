@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+h2 {
+padding: 4% 0;
+}
+section {
+    padding: 1em 0;
+}
+.subhead {
+    margin-bottom: 1.5em;
+    color: #777;
+}
+ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.logo {
+    width: 130px;
+    height: 30px;
+}
+.menu {
+    width: 25px;
+    margin-top: 20%;
+}
+.hide-mobile {
+    display: none;
+}
+.show-mobile {
+    display: block;
+}
+.purple-container {
+    background-color: #a750c5;
+    color: #fff;
+}
+.light-purple-container {
+    background-color: #beadec;
+}
+.aqua-container {
+    background-color: #47BAC4;
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+}
+.hero-section {
+    margin-top: 18%;
+    margin-bottom: 20%;
+}
+.hero-section h1 {
+    font-size: 2.3em;
+}
+.hero-img {
+    width: 55%;
+    padding: 1em 0;
+}
+.subhead-hero p {
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+.hero-btn {
+    background-color: #47BAC4;
+    font-size: 1.2em;
+    padding: 1em 4em;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+
+/**************** SECTION TWO *****************/
+.section-two ul {
+    line-height: 1.5em;
+    /*text-align: left;*/
+}
+.section-two p {
+    margin-bottom: 1em;
+}
+.bold-heading li {
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+.fa-check-square {
+    position: relative;
+    top: .2em;
+    font-size: 2em;
+    color: #a750c5;
+}
+
+
+/**************** LIGHT PURPLE CONTAINER *****************/
+
+.light-purple-container img {
+    width: 90%;
+    padding: 0 0 1em 0;
+}
+.light-purple-container h3 {
+    padding: 1em 0;
+}
+
+
+.wrapper span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+/**************** CLIENT LOGO SECITON *****************/
+
+.client-logo {
+    margin-top: 1em;
+}
+
+
+
+
+/* Desktops and laptops ----------- */
+@media all and (min-width:1280px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-img {
+      width: 15%;
+  }
+}
+
+/* Tablets  (portrait and landscape) ----------- */
+@media all and (min-device-width:768px) and (max-device-width:1279px) {
+  /* CSS rules */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all and (max-device-width:767px) {
+  /* CSS rules */
+}

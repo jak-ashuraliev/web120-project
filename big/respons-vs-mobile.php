@@ -34,16 +34,14 @@
     <p>Responsive came onto the scene before mobile first, that is sometimes why there is confusion between the two approaches. Another example of responsive website would be if you were to grab the corner of your browser and re-adjust the size. Make it smaller and you will see the content rearrange itself so that it is not cut off. Believe it or not, it was once common for web pages to just end where the browser did so that user had to scroll around to find content.</p>
     
     <p><strong>If you are interested in using a responsive design approach first, here are basic components to consider integrating:</strong></p>
-    <ol>
-        <h4>Meta Tag</h4>
-        <ul>
-            <li>Use a meta tag in the head of your code to reset your viewpoint. Most mobile browsers scale to wide viewpoints to fit the screen. The viewpoint meta tag will reset this so that the viewpoint width fits the device, rather than initial scale.</li>
-        </ul><br>
-        <h4>CSS Media Queries</h4>
-        <ul>
-            <li>UMedia Queries are the essential piece to creating a responsive design. It engineers the conditions that tell the browser how to render a page for a specified viewpoint width. Basically, you are writing the code that tells the webpage that if a screen is 700 pixel, make the content 50% of the screen. That can be written for all of screen sizes needed.</li>
-        </ul>
-    </ol>
+    <h4>Meta Tag</h4>
+    <ul>
+        <li>Use a meta tag in the head of your code to reset your viewpoint. Most mobile browsers scale to wide viewpoints to fit the screen. The viewpoint meta tag will reset this so that the viewpoint width fits the device, rather than initial scale.</li>
+    </ul><br>
+    <h4>CSS Media Queries</h4>
+    <ul>
+        <li>UMedia Queries are the essential piece to creating a responsive design. It engineers the conditions that tell the browser how to render a page for a specified viewpoint width. Basically, you are writing the code that tells the webpage that if a screen is 700 pixel, make the content 50% of the screen. That can be written for all of screen sizes needed.</li>
+    </ul>
     <p>In conclusion, this is a relatively easy decision to make: use the 80-20 rule. <strong>If 80% of your target audience is on desktop use, responsive design; if 80% are on mobile phone use mobile-first.</strong> You need to see where the usage trends are going, what your budget is and where your business will be in 3 years. If your business is entirely digital and providing an excellent user-experience cannot be ignored, maybe you should create two distinct sites adapted specially for both desktop and mobile users.</p>
 </section>
 <!--END LEFT COLUMN-->

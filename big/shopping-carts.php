@@ -43,7 +43,7 @@
     <p><strong>Other important things to keep in mind:</strong></p>
     
     <ul>
-        <li>The purchase button next to the product should indicate the action: <strong>“order”, “buy”</strong>, etc. If it contains a <stong>“I want”</strong> text, then this can be interpreted as a usual wish, but not a purchase.</li>
+        <li>The purchase button next to the product should indicate the action: <strong>“order”, “buy”</strong>, etc. If it contains a <strong>“I want”</strong> text, then this can be interpreted as a usual wish, but not a purchase.</li>
         <li>If the button for making a purchase does not contain text - it should be noticeable, large and have a clear icon.</li>
         <li>The <strong>“Buy”</strong> button should be placed on all pages of the site where the product is presented: both on the blocks with a brief description (the catalog itself) and when going to the product page.</li>
         <li>In the cart itself, a person should not be confused. For example, if he wants to increase the number of products, then the simple buttons <strong>“+” and “-”</strong> should help him in solving this issue.</li>

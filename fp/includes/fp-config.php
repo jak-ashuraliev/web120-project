@@ -2,12 +2,10 @@
 // config.php
 
 // URL & labels for navigation:
-$nav1['index.php'] = "Home";
-$nav1['big/index.php'] = "Big Project";
-$nav1['aia.php'] = "AIA";
-$nav1['flowchart.php'] = "Flowchart";
-$nav1['fp/index.php'] = "Final Project";
-$nav1['contactme.php'] = "Contact";
+$nav1['template.php'] = "Главная";
+$nav1['how_it_works.php'] = "Как Это Работает";
+$nav1['about.php'] = "О Нас";
+$nav1['contact.php'] = "Контакт";
 
 
 // echo ($_SERVER['PHP_SELF']);
@@ -16,33 +14,24 @@ define ('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
 // default title
 $title = THIS_PAGE;
+$meta_description = "Корпоративные WiFi-решения для объектов любого размера. Предоставьте гостям беспроблемный доступ к WiFi, а также собирайте ключевые демографические данные и данные о местоположении.";
 
 switch(THIS_PAGE){
     
-    case 'index.php':
-        $title = 'Jak Ashuraliev | Front-End Web Developer';
+    case 'template.php':
+        $title = 'PurpleWiFi Маркетинговые услуги в социальных сетях';
     break;
     
-    case 'big/index.php':
-        $title = 'Big Project Assignment';
+    case 'how_it_works.php':
+        $title = 'Как Это Работает';
     break;
     
-    case 'aia.php':
-        $title = 'Audience, Issues and Approach';
-        $font_user = 'fa-users';
-        $font2 = 'fa-check-square-o';
+    case 'about.php':
+        $title = 'О Нас';
     break;
     
-    case 'flowchart.php':
-        $title = 'Flowchart';
-    break;
-    
-    case 'fp/index.php':
-        $title = 'Final Project';
-    break;
-    
-    case 'contactme.php':
-        $title = 'Contact Page';
+    case 'contact.php':
+        $title = 'Контакт';
     break;
 }
 

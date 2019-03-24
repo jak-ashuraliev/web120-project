@@ -19,11 +19,11 @@
 #EDIT THE FOLLOWING:
 $toAddress = "jakhongir.ashuraliev@seattlecentral.edu";  //place your/your client's email address here
 $toName = "Jak Ashuraliev"; //place your client's name here
-$website = "www.ashuraliev.com";  //place NAME of your client's website here
+$website = "www.purplewifi.uz";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
-include_once 'config.php'; #site keys go inside your config.php file
+include_once 'fp-config.php'; #site keys go inside your config.php file
 include 'contact-lib/contact_include.php'; #complex unsightly code moved here
 $response = null;
 $reCaptcha = new ReCaptcha($secretKey);
@@ -86,22 +86,22 @@ if ($response != null && $response->success)
     <div class="form-wrapper">
         <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
         
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="fname">Имя</label>
+            <input type="text" id="fname" name="firstname" placeholder="Имя..">
         
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="lname">Фамилия</label>
+            <input type="text" id="lname" name="lastname" placeholder="Фамилия..">
         
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="Your e-mail...">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" name="email" placeholder="Электронная почта...">
                 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+            <label for="subject">Тема</label>
+            <textarea id="subject" name="subject" placeholder="Сообщение.." style="height:200px"></textarea>
         
             <div><?=$feedback?></div>
             <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
             
-            <input type="submit" value="Submit">
+            <input type="submit" value="Отправить">
             
         </form>
     </div>

@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?=$title?></title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="<?= $meta_description ?>"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/contact_form.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
-    <div class="purple-container">
-        <div class="container">
-            <!--START HEADER-->
-            <header>
-                <img src="images/purplewifi-logo.png" alt="purplewifi logo" class="logo">
-                <nav>
-                    <a href="#" class="hide-desktop">
-                        <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
-                    </a>
-                    <ul class="show-desktop hide-mobile" id="nav">
-                        <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">How It Works</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav> 
-            </header>
-            <!--END HEADER-->
-        
     
+    <div class="bg-purple">
+        <header>
+            <nav>
+                <a href="template.php"><img class="logo" src="http://ashuraliev.com/fp/images/logos/purplewifi-logo.png" alt="PurpleWiFi logo"></a>
+                <input type="checkbox" id="chk">
+                    <label for="chk" class="show-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+            
+                <ul class="menu">
+                    <?= makeLinks($nav1) ?>
+                    <!--<li><a href="#" class="selected">Главная</a></li>-->
+                    <!--<li><a href="#">Как Это Работает</a></li>-->
+                    <!--<li><a href="#">О Нас</a></li>-->
+                    <!--<li><a href="#">Контакт</a></li>-->
+                    <label for="chk" class="hide-menu-btn">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </ul>
+            </nav>
+        </header>
+    </div>

@@ -8,7 +8,7 @@
         <aside class="aside aside-1">
             <h3>This is me</h3>
             <h1><span class="jak-hilight">Jak</span><br>Ashuraliev</h1>
-            <p>I am a creative <strong>Front End Web Developer</strong>. <br><span class="tablet-txt-cut">I design and develop user-centric features, functionalities, and industry-leading consumer facing websites and applications.</span></p>
+            <p>I am a <strong>Software Development Engineer</strong>. <br><span class="tablet-txt-cut">Highly driven and passionate Front End Software Developer with a proven track record of delivering results. An adaptable learner that embraces new tools, technologies, and languages to create the best products and exceed my customers' expectations.</span></p>
             <a class="btn-hero" href="#about-me">Get to know me</a>
         </aside>
         <aside class="aside aside-2">

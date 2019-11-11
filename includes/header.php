@@ -23,7 +23,7 @@
         <?php 
         /*
         <a href="index.php" class="">">Home</a>
-        <a href="#" >Big Project</a>
+        <a href="#" >Project</a>
         <a href="aia.php" class="">AIA</a>
         <a href="#" class="">Flowchart</a>
         <a href="#" class="">Final Project</a>
